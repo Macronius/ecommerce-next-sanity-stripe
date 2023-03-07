@@ -100,3 +100,35 @@ at async handleCheckout (Cart.jsx?a2f4:32:20)
 - VM8212:1 Uncaught (in promise) SyntaxError: Unexpected token 'I', "Invalid AP"... is not valid JSON
 - VM8429:1 Uncaught (in promise) SyntaxError: Unexpected token 'Y', "You did no"... is not valid JSON
 - VM10398:1 Uncaught (in promise) SyntaxError: Unexpected token 'R', "Received u"... is not valid JSON
+
+- a
+- b
+- c
+- $ npm install
+  npm ERR! code ERESOLVE
+  npm ERR! ERESOLVE could not resolve
+  npm ERR!
+  npm ERR! While resolving: next-sanity-image@3.2.1  
+  npm ERR! Found: @sanity/client@3.4.1
+  npm ERR! node_modules/@sanity/client
+  npm ERR! @sanity/client@"^3.2.0" from the root project
+  npm ERR!
+  npm ERR! Could not resolve dependency:
+  npm ERR! peer @sanity/client@"^2.11.0" from next-sanity-image@3.2.1
+  npm ERR! node_modules/next-sanity-image
+  npm ERR! next-sanity-image@"^3.2.1" from the root project
+  npm ERR!
+  npm ERR! Conflicting peer dependency: @sanity/client@2.23.2
+  npm ERR! node_modules/@sanity/client
+  npm ERR! peer @sanity/client@"^2.11.0" from next-sanity-image@3.2.1
+  npm ERR! node_modules/next-sanity-image
+  npm ERR! next-sanity-image@"^3.2.1" from the root project
+  npm ERR!
+  npm ERR! Fix the upstream dependency conflict, or retry
+  npm ERR! this command with --force, or --legacy-peer-deps
+  npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+  npm ERR!
+  npm ERR! See C:\Users\XPS13\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR! C:\Users\XPS13\AppData\Local\npm-cache_logs\2023-03-06T19_48_05_774Z-debug-0.log
